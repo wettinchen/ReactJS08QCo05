@@ -1,3 +1,54 @@
+## ReactJS Chapter 08
+It is my coding practice with the TUTORIAL of Dave Gray. 
+
+## Source
+### Dave Gray 的 Reactjs 課程
+https://youtube.com/playlist?list=PL0Zuz27SZ-6PrE9srvEn8nbhOOyxnWXfp
+### Dave Gray 的 YouTube 頻道
+https://www.youtube.com/@DaveGrayTeachesCode
+
+## ReactJS Chapter 08
+   Quick Concept outline
+   中文摘要說明與重點提問
+   
+###  1. Intro 
+        教學影片固定的開頭和摘要說明
+
+###  2. What are props?  <Code更動>
+        說明 prop 和 prop drilling 的功能。
+        將表單移動至最上方。
+
+###  3. Passing props to a component <Code更動>
+        將 Header.js 設定參數 props 和 props.title 傳送到 App.js
+
+###  4. Destructuring props <Code更動>
+        將 Header.js 的 props 分解，改為 title。
+        修改 title 名稱為 Groceries List
+
+###  5. defaultProps  <Code更動>
+        為什麼要設定 defaultProps ?
+        設定 Header.defaultProps
+
+###  6. Moving state to the parent component  <Code更動>
+        什麼是 sibling component ?
+        從 Content.js 拉資料至 App.js，
+        再從 App.js 拉資料至 Content.js 和 Footer.js
+        App.js 匯入 useState，加入 Content.js 需要的參數
+        Content.js 移除 useState
+
+###  7. Passing props to the Footer component <Code更動>
+        將項目的數量設定在 footer，數量在一個以下時，items 改為 item
+       
+###  8. Prop drilling to an Item List Component <Code更動>
+        新增 ItemList.js，移入需要的參數與 ul 元素
+        匯入 ItemList.js 至 Content.js
+        匯入 FaTrashAlt 至 ItemList.js
+
+###  9. Prop drilling to a reusable Line Item component  <Code更動>
+        新增 ListItem.js，移入需要的參數與 li 元素
+        匯入 FaTrashAlt 至 ItemList.js
+        匯入 ListItem.js 至 ItemList.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
